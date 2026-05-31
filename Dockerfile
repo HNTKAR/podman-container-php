@@ -24,3 +24,5 @@ RUN docker-php-ext-install -j8 \
     intl \
     sodium \
     sysvsem
+
+COPY ["config/zz-user.conf", "/usr/local/etc/php-fpm.d/zz-user.conf"]
