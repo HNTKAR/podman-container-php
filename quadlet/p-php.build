@@ -1,0 +1,7 @@
+[Unit]
+Description=Build PHP Container
+
+[Build]
+SetWorkingDirectory=WORKING_DIR_PATH
+ServiceName=pb-php
+ImageTag=php

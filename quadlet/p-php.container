@@ -1,0 +1,10 @@
+[Unit]
+Description=PHP Container
+
+[Container]
+Image=p-php.build
+ContainerName=php
+ServiceName=pc-php
+
+[Install]
+WantedBy=multi-user.target
