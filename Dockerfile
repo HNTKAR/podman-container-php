@@ -18,6 +18,7 @@ RUN docker-php-ext-install -j8 \
     filter \
     gd \
     xml \
+    zip \
     posix \
     session \
     pdo_mysql \
